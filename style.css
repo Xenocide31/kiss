@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Monoton&family=Poppins&family=Ubuntu:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+.flirt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.text {
+    font-size: 50px;
+}
+
+.tenor-gif-embed {
+    height: 300px;
+    z-index: -1000;
+}
+
+.no2 {
+    display: none;
+}
+
+.btn-container {
+    width: 100vh;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    background-color: pink;
+}
+
+.yes {
+    left: 35%;
+}
+
+.no {
+    right: 35%;
+}
